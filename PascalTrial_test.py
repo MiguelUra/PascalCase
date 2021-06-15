@@ -1,7 +1,7 @@
 import unittest
 import math
 class TestClass(unittest.TestCase):
-    def Espacios_test(self):
+    def test_Espacios(self):
         strng1 = "Hola soy de malacia"
         strng2 = "Hola Soy De Malacia"
         z =""
@@ -11,7 +11,7 @@ class TestClass(unittest.TestCase):
         United = " ".join(z.split())
         self.assertEqual(strng2, United)
 class TestClasss(unittest.TestCase):
-    def Otraprueba_test(self):
+    def test_OtraPrueba(self):
         m = "la vida es bella"
         n = "la Vida es Bella"
         z = ""
